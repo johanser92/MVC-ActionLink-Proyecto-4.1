@@ -1,0 +1,26 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+   <div>
+       <h1>Pagina Principal</h1>
+       <ul>
+       <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+       <li>@Html.ActionLink("Listado Clientes", "Listado", "Clientes")</li>
+       <li>@Html.ActionLink("Crear Clientes", "Crear", "Clientes")</li>
+       <li>@Html.ActionLink("Listado Proveedores", "Listado", "Proveedores")</li>
+       <li>@Html.ActionLink("Crear proveedores", "Crear", "Proveedores")</li>
+       </ul>
+   </div>
+   
+</body>
+</html>
